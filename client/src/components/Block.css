@@ -1,0 +1,11 @@
+
+.block {
+  background-color: var(--off-white);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  border-bottom: 3px solid #000;
+  height: 100vh;
+}
