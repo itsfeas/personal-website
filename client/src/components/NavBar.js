@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
-// import styles from "./NavBar.css";
 import "./NavBar.css";
 
 class NavBar extends Component {

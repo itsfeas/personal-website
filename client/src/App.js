@@ -5,7 +5,9 @@ import { Route, Switch } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import UserPage from './pages/UserPage';
 import NavBar from './components/NavBar';
-import Block from './components/Block';
+import TextBlock from './components/TextBlock';
+import ExperienceBlock from './components/ExperienceBlock';
+import ProjectBlock from './components/projects/ProjectBlock';
 
 class App extends Component {
   render() {
@@ -13,14 +15,18 @@ class App extends Component {
       <div className="App">
         <NavBar />
             {/* <HomePage />; */}
-            <Block
+            <TextBlock
               height = { 80 }
               id = { 1 }
             />;
 
-            <Block
+            <ProjectBlock
               height={100}
               id={2}
+            />;
+            <TextBlock
+              height={80}
+              id={3}
             />;
       </div>
     )

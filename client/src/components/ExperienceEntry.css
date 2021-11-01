@@ -1,0 +1,45 @@
+.exp-entry {
+  padding: 0;
+  margin: auto;
+  height: 100%;
+}
+
+.description-list {
+  margin: 1rem;
+  /* display: inline; */
+  /* list-style: none; */
+}
+
+.job-title {
+  display: inline-block;
+  color: #333;
+}
+
+.nav-item {
+  display: inline-block;
+  color: #333;
+}
+
+.nav-item:not(:first-child) {
+  margin-left: 3vh;
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .nav-logo {
+    animation: nav-logo-spin infinite 10s linear;
+  }
+}
+
+@keyframes nav-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
