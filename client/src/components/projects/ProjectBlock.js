@@ -3,12 +3,12 @@ import blockStyle from '../Block';
 import ProjectEntry from './ProjectEntry';
 import '../Block.css'
 
-import { FanGraphic, FanDesc } from './humanTrackingFan/Fan';
-import { ABGraphic, ABDesc } from './abLoop/Abloop';
-import { CreditTrackGraphic, CreditTrackDesc } from './creditTracking/CreditTracking';
-import { BotGraphic, BotDesc } from './discordMusicBot/MusicBot';
-import { EyeRisGraphic, EyeRisDesc } from './eyeRis/EyeRis';
-import { EpilepSafeGraphic, EpilepSafeDesc } from './epilepSafe/EpilepSafe';
+import { FanGraphic, FanDesc } from './human-tracking-fan/Fan';
+import { ABGraphic, ABDesc } from './abloop/Abloop';
+import { CreditTrackGraphic, CreditTrackDesc } from './credit-tracking/CreditTracking';
+import { BotGraphic, BotDesc } from './discord-music-bot/MusicBot';
+import { EyeRisGraphic, EyeRisDesc } from './eyeris/EyeRis';
+import { EpilepSafeGraphic, EpilepSafeDesc } from './epilepsafe/EpilepSafe';
 
 
 const fade = (percentage) => ({
