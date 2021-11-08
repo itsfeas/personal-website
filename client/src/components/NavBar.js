@@ -11,7 +11,7 @@ class NavBar extends Component {
             <li className="nav-item">Experience</li>
             <li className="nav-item">Projects</li>
             <li className="nav-item">Skills</li>
-            <li className="nav-item">Contact Me</li>
+            <li className="nav-item">Contact</li>
           </ul>
         </div>
       </nav>

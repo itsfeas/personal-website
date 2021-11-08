@@ -9,20 +9,16 @@ function ABGraphic() {
 }
 
 
-function ABList() {
+function ABDesc() {
     return (
-        <div className="container">
-            <ul className="desc-list">
-                <li className="desc">● Developed AB capable of tracking users using camera feed, as well as associated web app</li>
-                <li className="desc">● Built web app for manual control using Flask, HTML, CSS, JavaScript, and the Fetch API</li>
-                <li className="desc">● Integrated Human Tracking Capabilities using neural networks powered by Tensorflow</li>
-                <li className="desc">● Designed client-server system between web app and microcontroller</li>
-            </ul>
+        <div className="desc-container">
+            <p>Leading group of 6 members in developing software for train control systems and communication networks. Working with C++, CAN Protocols, and Python.</p>
+            <a href='http://albertaloop.ca/' className="highlighted-text prj-link">Link to Website</a>
         </div>
     );
 }
 
 export {
     ABGraphic,
-    ABList
+    ABDesc
 };

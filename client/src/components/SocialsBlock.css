@@ -1,0 +1,11 @@
+.socials-content {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.socials-icon {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}

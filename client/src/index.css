@@ -14,11 +14,11 @@ code {
 
 
 /* roboto-regular*/
-@font-face {
+/* @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local('RobotoX'),
+  src: local('Roboto'),
        url('./fonts/roboto.woff') format('woff'),
-       url('./fonts/roboto.woff2') format('woff2'); /* Super Modern Browsers */
-}
+       url('./fonts/roboto.woff2') format('woff2'); 
+} */
