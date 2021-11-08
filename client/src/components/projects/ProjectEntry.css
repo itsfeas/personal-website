@@ -30,6 +30,7 @@
 .dollar-img, .bot-img, .fan-img, .ab-logo {
   height: 15vw;
   margin: 3vw;
+  max-width: 100%;
 }
 
 .bot-img {
@@ -95,14 +96,24 @@
 /15161674/responsive-design-rearrange-element-positions-with-css */
 @media screen and (max-width: 768px)
 {
+  .dollar-img, .bot-img {
+    transform: scale(1);
+  }
+  
+  .bot-img {
+    margin-top: 5vh;
+  }
+
    .prj-content
    {
+    margin-top: 10vh;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: column-reverse;
     flex-direction: column-reverse; 
+    /* height: 60vh; */
    }
-  .fan-img, .ab-logo{
+  .dollar-img, .bot-img, .fan-img, .ab-logo {
     height: 20vw;
   }
 }

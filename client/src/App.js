@@ -16,12 +16,10 @@ class App extends Component {
     return (
       <div className="App">
         {/* <NavBar /> */}
-            {/* <HomePage />; */}
             <LandingBlock
               height = { 80 }
               id = { 1 }
             />
-
             <ProjectBlock
               height={100}
               id={2}

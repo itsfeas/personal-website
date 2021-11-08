@@ -1,5 +1,21 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+/* 
+.footer-text {
+    margin-right: 5vw;
+} */
+
+.divider {
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
 .socials-content {
     margin: auto;
+    /* margin-left: 5vw; */
     display: flex;
     flex-direction: row;
 }
