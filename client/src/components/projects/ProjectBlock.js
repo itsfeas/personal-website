@@ -4,11 +4,11 @@ import ProjectEntry from './ProjectEntry';
 import '../Block.css'
 
 import { FanGraphic, FanDesc } from './human-tracking-fan/Fan';
-import { ABGraphic, ABDesc } from './ab-loop/Abloop';
+import { ABGraphic, ABDesc } from './abloop/Abloop';
 import { CreditTrackGraphic, CreditTrackDesc } from './credit-tracking/CreditTracking';
 import { BotGraphic, BotDesc } from './discord-music-bot/MusicBot';
-import { EyeRisGraphic, EyeRisDesc } from './eye-ris/EyeRis';
-import { EpilepSafeGraphic, EpilepSafeDesc } from './epilep-safe/EpilepSafe';
+import { EyeRisGraphic, EyeRisDesc } from './eyeris/EyeRis';
+import { EpilepSafeGraphic, EpilepSafeDesc } from './epilepsafe/EpilepSafe';
 
 
 const fade = (percentage) => ({
@@ -57,37 +57,37 @@ function ProjectBlock({ height, id }) {
         <div className="project-grid" id="prj-grid">
           <ProjectEntry
             id={1}
-            name={"inter-club credit tracking website"}
+            name={"Inter-Club Credit Tracking Website"}
             image={<CreditTrackGraphic />}
             descr={<CreditTrackDesc />}
           />
           <ProjectEntry
             id = {2}
-            name = { "human tracking fan" }
+            name = { "Autonomous Human Tracking Fan" }
             image = { <FanGraphic /> }
             descr = { <FanDesc /> }
           />
           <ProjectEntry
             id={3}
-            name={"albertaloop"}
+            name={"Albertaloop"}
             image={<ABGraphic />}
             descr={<ABDesc />}
           />
           <ProjectEntry
             id={4}
-            name={"discord music bot"}
+            name={"Discord Music Bot"}
             image={<BotGraphic />}
             descr={<BotDesc />}
           />
           <ProjectEntry
             id={5}
-            name={"epilepsafe"}
+            name={"EpilepSafe"}
             image={<EpilepSafeGraphic />}
             descr={<EpilepSafeDesc />}
           />
           <ProjectEntry
             id={6}
-            name={"eyeris"}
+            name={"EyeRis"}
             image={<EyeRisGraphic />}
             descr={<EyeRisDesc />}
           />
