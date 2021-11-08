@@ -9,14 +9,12 @@ import './SocialsBlock.css'
 
 function SocialsBlock({ height, id }) {
   return (
-    <div style={blockStyle(height)} className={"block"}>
+    <div className="footer-block">
       <div className="footer">
-          <div className="footer-text">
-              <p>Built with React</p>
-          </div>
-
+          <p className="footer-text">Built with React</p>
           <p className="divider">|</p>
-          <p><a href="https://github.com/itsfeas/personal-website">Website Repo</a></p>
+          <p className="footer-text"><a href="https://github.com/itsfeas/personal-website">Website Repo</a></p>
+          {/* <p className="footer-text">Property Muhammad Fiaz</p> */}
           <p className="divider">|</p>
 
           <div className="socials-content" id={"socials-content-" + id}>

@@ -25,7 +25,7 @@ class App extends Component {
               id={2}
             />
             <SocialsBlock
-              height={80}
+              height={10}
               id={3}
             />
       </div>

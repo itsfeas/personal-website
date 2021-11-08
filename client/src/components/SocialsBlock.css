@@ -1,4 +1,12 @@
+.footer-block {
+    display: flex;
+    padding: 7vh;
+    align-items: flex-start;
+    height: auto;
+}
+
 .footer {
+    /* height: 10vh; */
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -24,4 +32,11 @@
     width: 35px;
     height: 35px;
     margin: 5px;
+}
+
+@media screen and (max-width: 800px)
+{
+    .divider, .footer-text {
+        display: none;
+    }
 }
