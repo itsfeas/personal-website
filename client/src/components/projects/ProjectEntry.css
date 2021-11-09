@@ -120,7 +120,7 @@
 }
 
 
-@media screen and (max-width: 550px)
+@media screen and (max-aspect-ratio: 0.520833333)
 {
   .fan-img, .ab-logo{
     height: 40vw;

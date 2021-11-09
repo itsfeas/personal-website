@@ -34,7 +34,7 @@
     margin: 5px;
 }
 
-@media screen and (max-width: 800px)
+@media screen and (max-aspect-ratio: 0.416666667)
 {
     .divider, .footer-text {
         display: none;
