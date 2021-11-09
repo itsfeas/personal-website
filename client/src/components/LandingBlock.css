@@ -71,7 +71,7 @@
     filter: invert(48%) sepia(6%) saturate(6%) hue-rotate(329deg) brightness(102%) contrast(89%);}
 
 
-@media screen and (max-aspect-ratio: 0.78125) {
+@media screen and (max-width: 1500px) {
     .landing-img {
         margin-left: -30vw;
         margin-top: -10vh;
@@ -80,7 +80,7 @@
     }
 }
 
-@media screen and (max-aspect-ratio: 0.520833333) {
+@media screen and (max-width:1000px) {
     .landing-content {
         /* margin-top: -10vh; */
         margin-bottom: 0;

@@ -31,7 +31,7 @@
 }
 
 
-@media screen and (max-aspect-ratio: 0.416666667)
+@media screen and (max-width: 800px)
 {
   .project-grid {
     display: grid;
@@ -43,7 +43,7 @@
   } */
 }
 
-@media screen and (max-aspect-ratio: 0.286458333)
+@media screen and (max-width: 550px)
 {
   .project-grid {
     display: grid;
