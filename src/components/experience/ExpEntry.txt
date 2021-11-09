@@ -1,0 +1,105 @@
+.prj-entry {
+  padding: 0;
+  height: auto;
+  /* margin-bottom: 5vh; */
+  /* min-height: 80vh; */
+  /* display: inline; */
+}
+
+.prj-content {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+}
+
+.prj-title {
+  margin-bottom: 0;
+}
+
+.prj-text {
+  margin: auto;
+}
+
+.fan-img, .ab-logo {
+  height: 30vh;
+  margin: 7vh;
+}
+
+.desc-list {
+  /* margin: 1rem; */
+  display: inline;
+  list-style: none;
+}
+
+.job-title {
+  display: inline-block;
+  color: #333;
+}
+
+
+/* help obtained from https://stackoverflow.com/questions
+/15161674/responsive-design-rearrange-element-positions-with-css */
+@media screen and (max-width: 768px)
+{
+   .prj-content
+   {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse; 
+   }
+  .fan-img, .ab-logo{
+    height: 50vw;
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .fan-img {
+    animation: fan-img-spin infinite 20s linear;
+  }
+  .ab-logo {
+    animation-name: ab-logo-float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* margin-left: 30px;
+    margin-top: 5px; */
+  }
+}
+
+@keyframes fan-img-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*  
+@keyframes ab-logo-float {
+    0% { transform: translate(0,  0px); }
+    15%  { transform: translate(4px, 6px); }
+    30% { transform: translate(7px,  -4px); }
+    45% { transform: translate(10px,  -4px); }
+    50% { transform: translate(4px,  -3px); }
+    70% { transform: translate(-3px,  0px); }
+    85% { transform: translate(-7px,  6px); }
+    100% { transform: translate(0px,  0px); }
+} */
+
+@keyframes ab-logo-float {
+  0% {
+    transform: translatey(0px);
+  }
+  25% {
+    transform: translatey(-10px);
+  }
+  75% {
+    transform: translatey(10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}

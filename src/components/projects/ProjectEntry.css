@@ -1,0 +1,128 @@
+.prj-entry {
+  padding: 0;
+  height: auto;
+  display: contents;
+}
+
+.prj-content {
+  /* width: 50vw; */
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prj-title {
+  margin-bottom: 0;
+}
+
+.prj-text {
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+}
+
+.img-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dollar-img, .bot-img, .fan-img, .ab-logo {
+  height: 15vw;
+  margin: 3vw;
+  max-width: 100%;
+}
+
+.bot-img {
+  transform: scale(0.7);
+  filter: invert(59%) sepia(16%) saturate(1495%) hue-rotate(190deg) brightness(90%) contrast(88%);
+}
+
+.dollar-img {
+  transform: scale(0.9);
+  filter: invert(71%) sepia(23%) saturate(767%) hue-rotate(54deg) brightness(70%) contrast(85%);
+}
+
+.desc {
+  /* margin: 1rem; */
+  display: inline;
+  list-style: none;
+
+}
+
+/* .prj-desc {
+  margin-bottom: auto;
+} */
+
+.desc-container {
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: end; */
+}
+
+.prj-link {
+  color: #000;
+  margin-top: auto;
+  margin-bottom: 0;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.job-title {
+  display: inline-block;
+  color: #333;
+}
+
+.faded {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+  transform: translateY(50px);
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.faded.in-view {
+  transform: none;
+  opacity: 1;
+}
+
+.prj-entry:hover > div {
+  transform: scale(1.01);
+}
+
+/* help obtained from https://stackoverflow.com/questions
+/15161674/responsive-design-rearrange-element-positions-with-css */
+@media screen and (max-width: 768px)
+{
+  .dollar-img, .bot-img {
+    transform: scale(1);
+  }
+  
+  .bot-img {
+    margin-top: 5vh;
+  }
+
+   .prj-content
+   {
+    margin-top: 10vh;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse; 
+    /* height: 60vh; */
+   }
+  .dollar-img, .bot-img, .fan-img, .ab-logo {
+    height: 20vw;
+  }
+}
+
+
+@media screen and (max-width: 550px)
+{
+  .fan-img, .ab-logo{
+    height: 40vw;
+  }
+}
