@@ -1,5 +1,6 @@
 import React from 'react';
 import "./ProjectEntry.css";
+import "../Block.css"
 
 function ProjectEntry({ id, name, image, descr }) {
     return (

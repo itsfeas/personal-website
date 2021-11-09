@@ -13,7 +13,7 @@ function SocialsBlock({ height, id }) {
       <div className="footer">
           <p className="footer-text">Built with React</p>
           <p className="divider">|</p>
-          <p className="footer-text"><a href="https://github.com/itsfeas/personal-website">Website Repo</a></p>
+          <p className="footer-text highlighted-text footer-link"><a href="https://github.com/itsfeas/personal-website">Website Repo</a></p>
           {/* <p className="footer-text">Property Muhammad Fiaz</p> */}
           <p className="divider">|</p>
 

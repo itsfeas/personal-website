@@ -11,10 +11,10 @@
     flex-direction: row;
     margin: auto;
 }
-/* 
-.footer-text {
-    margin-right: 5vw;
-} */
+
+.footer-link {
+    text-underline-offset: 5px;
+}
 
 .divider {
     margin-right: 5vw;
