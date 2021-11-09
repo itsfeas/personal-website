@@ -75,8 +75,8 @@
     .landing-img {
         margin-left: -30vw;
         margin-top: -10vh;
-        width: 120vw;
-        height: 120vw;
+        width: 120vh;
+        height: 120vh;
     }
 }
 
@@ -93,7 +93,7 @@
     .landing-img {
         margin-left: -60vw;
         margin-top: -10vh;
-        width: 120vh;
-        height: 120vh;
+        width: 170vw;
+        height: 170vw;
     }
 }
