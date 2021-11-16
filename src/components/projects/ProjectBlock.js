@@ -69,7 +69,7 @@ function ProjectBlock({ height, id }) {
           />
           <ProjectEntry
             id={3}
-            name={"Albertaloop"}
+            name={"Student-Developed Train System"}
             image={<ABGraphic />}
             descr={<ABDesc />}
           />
