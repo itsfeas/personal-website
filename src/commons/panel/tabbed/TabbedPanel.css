@@ -1,0 +1,53 @@
+.tabbed-panel {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    justify-content: center;
+    column-gap: 2vw;
+}
+
+.tabbed-panel-option, .tabbed-panel-selected {
+    text-align: center;
+    padding: 0.5rem 4rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 35px;
+    margin: 1vh;
+
+    font-weight: bold;
+    font-family: inherit;
+    font-size: inherit;
+
+    background: -moz-linear-gradient(center bottom, #8b2fc4 0%, #a600de 34%, #f55fff 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #7300ba), color-stop(0.33, #a600de), color-stop(1, #f55fff));
+
+    background-origin: border-box;
+    -moz-background-origin: border;
+
+    border: 8px solid transparent;
+}
+
+.tabbed-panel-option {
+    box-shadow: inset 1000vw 0 0 #000;
+}
+
+.tabbed-panel-selected:hover {
+    border: 8px solid white;
+    box-shadow: inset 1000vw 0 0 #fff;
+    color: #000;
+}
+
+.tabbed-panel-option:hover {
+    border: 8px solid white;
+    box-shadow: inset 1000vw 0 0 #000;
+}
+
+@media screen and (max-aspect-ratio: 6/5) {
+    .tabbed-panel {
+        padding: 0;
+        column-gap: 0;
+        row-gap: 0;
+        flex-direction: column;
+    }
+}

@@ -1,11 +1,17 @@
 .block {
-  background-color: white;
+  background-color: black;
   border-bottom: 1px solid #000;
   /* height: auto; */
   /* height: 100vh; */
+  display: flex;
+  padding: 10vh;
+  align-items: flex-start;
+  height: auto;
+  overflow: hidden;
 }
 
 .heading {
+  font-size: 40pt;
   margin-top: 0;
   text-align: center;
 }

@@ -1,0 +1,22 @@
+
+.bordered-container,
+.bordered-container-padded {
+    margin: 2rem 0 2rem 0;
+    border: 8px solid white;
+    border-radius: 35px;
+    width: 100%;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.bordered-container-padded {
+    padding: 2rem;
+}
+
+@media screen and (max-aspect-ratio: 6/5) {
+    .bordered-container-padded {
+        justify-content: center;
+    }
+}

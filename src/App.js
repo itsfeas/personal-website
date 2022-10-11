@@ -10,6 +10,7 @@ import TextBlock from './components/TextBlock';
 import LandingBlock from './components/LandingBlock';
 import SocialsBlock from './components/SocialsBlock';
 import ProjectBlock from './components/projects/ProjectBlock';
+import ExpBlock from './components/experience/ExpBlock';
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
               height={100}
               id={2}
             />
+            <ExpBlock />
             <SocialsBlock
               height={10}
               id={3}

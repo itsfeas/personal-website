@@ -1,32 +1,43 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import blockStyle from '../Block';
-import ProjectEntry from './ProjectEntry';
+import ExpEntry from './ExpEntry';
+import "./ExpBlock.css";
 import '../Block.css'
 
-import { FanGraphic, FanList } from './fan/Fan';
-import { ABGraphic, ABList } from './abloop/abloop';
+import { NokiaSPDesc, NokiaNIDesc, NokiaGraphic } from './Nokia/Nokia';
+import { NeurocageDesc, NeurocageGraphic } from './Neurocage/Neurocage';
 
-function ProjectBlock({ height, id }) {
+function ExpBlock() {
   return (
-    <div style={blockStyle(height)} className={"block"}>
-        <div className="block-content" id={"project-block" + id}>
-            <h1>Projects</h1>
-            <p>Test</p>
-            <ProjectEntry
-                id = {1}
-                name = { "human tracking fan" }
-                image = { <FanGraphic /> }
-                descr = { <FanList /> }
-            />
-            <ProjectEntry
-                id={2}
-                name={"albertaloop"}
-                image={<ABGraphic />}
-                descr={<ABList />}
-            />
+    <div className="block" id="event-block">
+      <div className="event-block block-content">
+        <h1 className="heading event-heading">Work Experience</h1>
+        <div className="experience-grid" id="experience-grid">
+          <ExpEntry
+            company={"Nokia"}
+            position={"Software Developer Co-op"}
+            date={"Apr-Dec 2022"}
+            image={<NokiaGraphic />}
+            descr={<NokiaNIDesc />}
+          />
+          <ExpEntry
+            company={"Nokia"}
+            position={"Software Developer Co-op"}
+            date={"Jan-Apr 2022"}
+            image={<NokiaGraphic />}
+            descr={<NokiaSPDesc />}
+          />
+          <ExpEntry
+            company={"Neurocage"}
+            position={"Software Developer Co-op"}
+            date={"May-August 2021"}
+            image={<NeurocageGraphic />}
+            descr={<NeurocageDesc />}
+          />
         </div>
+      </div>
     </div>
   );
 }
 
-export default ProjectBlock;
+export default ExpBlock;

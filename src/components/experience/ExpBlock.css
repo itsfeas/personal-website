@@ -1,0 +1,120 @@
+.experience-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  column-gap: 3vw;
+  row-gap: 3vh;
+}
+
+.experience-block, .experience-date-block {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 5vw;
+  width: 100%;
+}
+
+.experience-entry {
+  flex: auto;
+  height: 100%;
+}
+
+.experience-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-heading {
+  /* margin: 0 auto 3vh auto; */
+  padding: 0;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.experience-title {
+  margin-bottom: 0;
+}
+
+.experience-text {
+  width: 6fr;
+  text-align: left;
+  margin: auto;
+}
+
+.experience-img-container {
+  height: auto;
+  display: flex;
+}
+
+.experience-graphic {
+  margin: 3vw;
+  width: 20vw;
+  object-fit: contain;
+}
+
+.experience-log {
+  height: 2vh;
+}
+
+.desc {
+  /* margin: 1rem; */
+  display: inline;
+  list-style: none;
+}
+
+/* .experience-desc {
+  margin-bottom: auto;
+} */
+
+.experience-desc-container {
+  width: 6fr;
+  display: block;
+  height: auto;
+}
+
+.experience-link {
+  color: lightblue;
+  margin-top: auto;
+  margin-bottom: 0;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+@media screen and (max-aspect-ratio: 6/5) {
+  .experience-block, .experiencedate-block {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 2vw;
+    width: 100%;
+  }
+
+  .experience-content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    padding: 2vh;
+    /* height: 60vh; */
+  }
+  .experience-text {
+    text-align: center;
+  }
+  .experience-img-container {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .experience-graphic {
+    width: 100%;
+    margin: 0;
+  }
+  .experience-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  .experience-heading {
+    font-size: 4.3vh;
+  }
+}

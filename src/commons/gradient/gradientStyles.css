@@ -1,0 +1,49 @@
+.gradient-image-container {
+    filter: drop-shadow(-1px -1px 0px #96e3ff) drop-shadow(2px -1px 0px #96e3ff) drop-shadow(2px 2px 0px #96e3ff) drop-shadow(-1px 2px 0px #96e3ff);
+    -webkit-filter: drop-shadow(-1px -1px 0px #96e3ff) drop-shadow(2px -1px 0px #96e3ff) drop-shadow(2px 2px 0px #96e3ff) drop-shadow(-1px 2px 0px #96e3ff);
+}
+
+.gradient-border, .gradient-border-padded {
+    background: -moz-linear-gradient(center bottom, #2fa1c4 1%, #89f2fe 33%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0.01, #2fa1c4), color-stop(0.33, #89f2fe));
+
+    background-origin: border-box;
+    -moz-background-origin: border;
+
+    border: 8px solid transparent;
+    border-radius: 35px;
+    box-shadow: inset 1000vw 0 0 #000;
+    
+    border-radius: 35px;
+}
+
+.gradient-border-padded {
+    padding: 2rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.gradient-text, .gradient-header {
+    /* -webkit-text-stroke: 2px #f896ff; */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #2fa1c4), color-stop(0.33, #89f2fe));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-small {
+    /* -webkit-text-stroke: 2px #f896ff; */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #2fa1c4), color-stop(0.33, #89f2fe));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.gradient-header {
+    /* -webkit-text-stroke: 2px #f896ff; */
+    /* paint-order: stroke fill; */
+}
+
+.colored-text {
+    color: #9eeef7;
+}
