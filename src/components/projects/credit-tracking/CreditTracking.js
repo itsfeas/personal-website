@@ -12,12 +12,12 @@ function CreditTrackGraphic() {
 
 function CreditTrackDesc() {
     return (
-        <div className="desc-container">
+        <>
             <p>Worked with team of 4 to develop website for tracking customer credit for UAlberta Clubs. Built with React, NodeJS, and PostgreSQL.</p>
             <a href='https://github.com/UAlbertaCompEClub/credit-tracking' className="prj-link-btn">
                 <HollowButton text={"Link to Repo"} />
             </a>
-        </div>
+        </>
     );
 }
 

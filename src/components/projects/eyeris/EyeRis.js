@@ -12,12 +12,12 @@ function EyeRisGraphic() {
 
 function EyeRisDesc() {
     return (
-        <div className="desc-container">
+        <>
             <p>Developed tool that allows users to control their music and scroll through documents with hand swipes. Uses NumPy and OpenCV for camera feed analysis.</p>
             <a href='https://github.com/itsfeas/EyeRis' className="prj-link-btn">
                 <HollowButton text={"Link to Repo"} />
             </a>
-        </div>
+        </>
     );
 }
 
