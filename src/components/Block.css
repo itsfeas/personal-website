@@ -16,14 +16,6 @@
   text-align: center;
 }
 
-.project-grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 70vh 70vh;
-  column-gap: 3vw;
-  row-gap: 3vh;
-}
-
 .highlighted:hover {
   color: gray;
   filter: invert(48%) sepia(6%) saturate(6%) hue-rotate(329deg) brightness(102%) contrast(89%);
@@ -34,26 +26,4 @@
   filter: invert(48%) sepia(6%) saturate(6%) hue-rotate(329deg) brightness(102%) contrast(89%);
   text-decoration: underline;
   /* text-underline-offset: 5px; */
-}
-
-
-@media screen and (max-width: 800px)
-{
-  .project-grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 70vh 70vh 70vh;
-  }
-  /* .heading {
-    margin-bottom: 10vh;
-  } */
-}
-
-@media screen and (max-width: 550px)
-{
-  .project-grid {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 50vh;
-  }
 }

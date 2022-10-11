@@ -1,3 +1,4 @@
+import HollowButton from '../../../commons/buttons/HollowButton';
 import abImg from './abloop_logo.svg';
 
 function ABGraphic() {
@@ -13,7 +14,9 @@ function ABDesc() {
     return (
         <div className="desc-container">
             <p>Leading group of 6 members in developing software for train control systems and communication networks. Working with C++, CAN Protocols, and Python.</p>
-            <a href='http://albertaloop.ca/' className="highlighted-text prj-link">Link to Website</a>
+            <a href='http://albertaloop.ca/' className="prj-link-btn">
+                <HollowButton text={"Website"} />
+            </a>
         </div>
     );
 }

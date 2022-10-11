@@ -1,3 +1,4 @@
+import HollowButton from '../../../commons/buttons/HollowButton';
 import botImg from './musicBot.svg';
 
 function BotGraphic() {
@@ -13,7 +14,9 @@ function BotDesc() {
     return (
         <div className="desc-container">
             <p>A music bot for playing songs in Discord voice calls through youtube videos! Built on the Discord API, FFMPEG, and PyTube.</p>
-            <a href='https://github.com/itsfeas/discord-music-bot' className="highlighted-text prj-link">Link to Repo</a>
+            <a href='https://github.com/itsfeas/discord-music-bot' className="prj-link-btn">
+                <HollowButton text={"Link to Repo"} />
+            </a>
         </div>
     );
 }

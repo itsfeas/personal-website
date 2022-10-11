@@ -56,37 +56,31 @@ function ProjectBlock({ height, id }) {
         <h1 className='heading faded'>Projects</h1>
         <div className="project-grid" id="prj-grid">
           <ProjectEntry
-            id={1}
             name={"Inter-Club Credit Tracking Website"}
             image={<CreditTrackGraphic />}
             descr={<CreditTrackDesc />}
           />
           <ProjectEntry
-            id = {2}
-            name = { "Autonomous Human Tracking Fan" }
-            image = { <FanGraphic /> }
-            descr = { <FanDesc /> }
+            name={ "Autonomous Human Tracking Fan" }
+            image={ <FanGraphic /> }
+            descr={ <FanDesc /> }
           />
           <ProjectEntry
-            id={3}
             name={"Student-Developed Train System"}
             image={<ABGraphic />}
             descr={<ABDesc />}
           />
           <ProjectEntry
-            id={4}
             name={"Discord Music Bot"}
             image={<BotGraphic />}
             descr={<BotDesc />}
           />
           <ProjectEntry
-            id={5}
             name={"EpilepSafe"}
             image={<EpilepSafeGraphic />}
             descr={<EpilepSafeDesc />}
           />
           <ProjectEntry
-            id={6}
             name={"EyeRis"}
             image={<EyeRisGraphic />}
             descr={<EyeRisDesc />}
