@@ -1,5 +1,6 @@
 import graphic from './Nokia.png';
 import "../ExpBlock.css";
+import GradientImg from '../../../commons/gradient/GradientImg';
 
 function NokiaGraphic() {
     return (

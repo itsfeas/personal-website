@@ -20,8 +20,8 @@ function LandingBlock({ height, id }) {
         <div style={ landingStyle(height)} className={"block"}>
             <div className="landing-content" id={"project-block" + id}>
                 <div className="landing-text" id="landing-text-1">
-                    <h1 className='main-heading faded'>Hi, I'm Fiaz!</h1>
-                    <h2 className='sub-heading faded'>3rd Year Software Engineering Student @UAlberta</h2>
+                    <h1 className='main-heading faded gradient-text'>Hi, I'm Fiaz!</h1>
+                    <h2 className='sub-heading faded colored-text'>3rd Year Software Engineering Student @UAlberta</h2>
                     {/* <h3 className='sub-heading faded'>Interested in Front and Back-End Development</h3> */}
                         <p className='main-desc faded'>
                         Check out my resume <a className='desc-link' target = "_blank" href={Resume}>here</a>
