@@ -51,6 +51,7 @@
   margin: 3vw;
   width: 20vw;
   object-fit: contain;
+  filter: invert(59%) sepia(16%) saturate(1495%) hue-rotate(150deg) brightness(200%) contrast(88%);
 }
 
 .experience-log {

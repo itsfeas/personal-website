@@ -4,7 +4,7 @@ import ExpEntry from './ExpEntry';
 import "./ExpBlock.css";
 import '../Block.css'
 
-import { NokiaSPDesc, NokiaNIDesc, NokiaGraphic } from './Nokia/Nokia';
+import { NokiaAutomationDesc, NokiaNIDesc, NokiaGraphic } from './Nokia/Nokia';
 import { NeurocageDesc, NeurocageGraphic } from './Neurocage/Neurocage';
 
 function ExpBlock() {
@@ -25,7 +25,7 @@ function ExpBlock() {
             position={"Software Developer Co-op"}
             date={"Jan-Apr 2022"}
             image={<NokiaGraphic />}
-            descr={<NokiaSPDesc />}
+            descr={<NokiaAutomationDesc />}
           />
           <ExpEntry
             company={"Neurocage"}

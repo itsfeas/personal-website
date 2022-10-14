@@ -64,11 +64,12 @@
 }
 
 .desc-link {
-    color: #000;
+    color: white;
 }
 
 .desc-link:hover {
-    filter: invert(48%) sepia(6%) saturate(6%) hue-rotate(329deg) brightness(102%) contrast(89%);}
+    filter: invert(48%) sepia(6%) saturate(6%) hue-rotate(329deg) brightness(102%) contrast(89%);
+}
 
 
 @media screen and (max-width: 1500px) {
