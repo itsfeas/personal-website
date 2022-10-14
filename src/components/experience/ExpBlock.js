@@ -22,7 +22,7 @@ function ExpBlock() {
           />
           <ExpEntry
             company={"Nokia"}
-            position={"Software Developer Co-op"}
+            position={"Automation Developer Co-op"}
             date={"Jan-Apr 2022"}
             image={<NokiaGraphic />}
             descr={<NokiaAutomationDesc />}
