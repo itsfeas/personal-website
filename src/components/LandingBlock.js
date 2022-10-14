@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 // import landingStyle from './Block';
 import './LandingBlock.css'
-import fanImg from '../img/profile3.jpg'
+import fanImg from '../img/profile4.jpg'
 import Resume from '../documents/Resume.pdf';
 
 const landingStyle = (height) => ({

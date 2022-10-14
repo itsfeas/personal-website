@@ -11,9 +11,9 @@ function SocialsBlock({ height, id }) {
   return (
     <div className="footer-block">
       <div className="footer">
-          <p className="footer-text">Built with React</p>
+          <p className="colored-text footer-text">Built with React</p>
           <p className="divider">|</p>
-          <p className="footer-text highlighted-text footer-link"><a href="https://github.com/itsfeas/personal-website">Website Repo</a></p>
+        <p><a className="colored-text footer-text highlighted-text footer-link" href="https://github.com/itsfeas/personal-website">Website Repo</a></p>
           {/* <p className="footer-text">Property Muhammad Fiaz</p> */}
           <p className="divider">|</p>
 

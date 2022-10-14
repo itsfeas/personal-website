@@ -30,7 +30,7 @@ function ExpBlock() {
           <ExpEntry
             company={"Neurocage"}
             position={"Software Developer Co-op"}
-            date={"May-August 2021"}
+            date={"May-Aug 2021"}
             image={<NeurocageGraphic />}
             descr={<NeurocageDesc />}
           />
