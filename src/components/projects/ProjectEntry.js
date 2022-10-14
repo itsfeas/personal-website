@@ -5,7 +5,7 @@ import "../Block.css"
 function ProjectEntry({ name, image, descr }) {
     return (
       <div className="prj-entry">
-        <div className="prj-content gradient-border-padded faded">
+        <div className="prj-content gradient-border-padded">
           <div className="prj-content-container">
             { image }
             <div className="prj-text">

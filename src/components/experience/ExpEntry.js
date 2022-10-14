@@ -5,7 +5,7 @@ import "../Block.css"
 function ExpEntry({ company, position, date, descr, image }) {
     return (
       <div className="experience-entry">
-        <div className="experience-content gradient-border-padded faded">
+        <div className="experience-content gradient-border-padded">
           <div className="experience-text text-main">
             <h2 className="experience-title text-main colored-text">{ company }</h2>
             <h3 className="text-main colored-text"><i>{ position }</i></h3>
