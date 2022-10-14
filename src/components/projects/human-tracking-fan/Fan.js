@@ -4,7 +4,7 @@ import fanImg from './fan.svg';
 function FanGraphic() {
     return (
         <div className="img-container">
-            <img src={fanImg} className="fan-img" alt="Image of Fan" />
+            <img src={fanImg} className="fan-img prj-img" alt="Image of Fan" />
         </div>
     );
 }

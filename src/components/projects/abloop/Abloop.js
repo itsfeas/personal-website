@@ -4,7 +4,7 @@ import abImg from './abloop_logo.svg';
 function ABGraphic() {
     return (
         <div className="img-container">
-            <img src={abImg} className="ab-logo" alt="Logo of Albertaloop" />
+            <img src={abImg} className="ab-logo prj-img" alt="Logo of Albertaloop" />
         </div>
     );
 }

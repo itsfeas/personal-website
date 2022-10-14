@@ -1,10 +1,10 @@
 import HollowButton from '../../../commons/buttons/HollowButton';
-import creditImg from './creditTracking.svg';
+import creditImg from './CreddiLogo.png';
 
 function CreditTrackGraphic() {
     return (
         <div className="img-container">
-            <img src={creditImg} className="dollar-img" alt="Image of dollar sign" />
+            <img src={creditImg} className="dollar-img prj-img" alt="Image of dollar sign" />
         </div>
     );
 }

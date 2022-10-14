@@ -4,7 +4,7 @@ import epilepsafeLogo from './epilepSafe.png';
 function EpilepSafeGraphic() {
     return (
         <div className="img-container">
-            <img src={epilepsafeLogo} className="fan-img" alt="Image of Logo" />
+            <img src={epilepsafeLogo} className="epilepsafe-img prj-img" alt="Image of Logo" />
         </div>
     );
 }

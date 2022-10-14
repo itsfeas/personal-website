@@ -6,8 +6,8 @@ import '../Block.css'
 import { FanGraphic, FanDesc } from './human-tracking-fan/Fan';
 import { ABGraphic, ABDesc } from './abloop/Abloop';
 import { CreditTrackGraphic, CreditTrackDesc } from './credit-tracking/CreditTracking';
-import { BotGraphic, BotDesc } from './discord-music-bot/MusicBot';
-import { EyeRisGraphic, EyeRisDesc } from './eyeris/EyeRis';
+import { MdtkrGraphic, MdtkrDesc } from './mdtkr/MDTKR';
+import { AirBlipGraphic, AirBlipDesc } from './airblip/AirBlip';
 import { EpilepSafeGraphic, EpilepSafeDesc } from './epilepsafe/EpilepSafe';
 
 
@@ -61,9 +61,14 @@ function ProjectBlock({ height, id }) {
             descr={<CreditTrackDesc />}
           />
           <ProjectEntry
-            name={ "Autonomous Human Tracking Fan" }
-            image={ <FanGraphic /> }
-            descr={ <FanDesc /> }
+            name={"Automated Mood Tracking Study"}
+            image={<MdtkrGraphic />}
+            descr={<MdtkrDesc />}
+          />
+          <ProjectEntry
+            name={"AirBlip"}
+            image={<AirBlipGraphic />}
+            descr={<AirBlipDesc />}
           />
           <ProjectEntry
             name={"Student-Developed Train System"}
@@ -71,19 +76,14 @@ function ProjectBlock({ height, id }) {
             descr={<ABDesc />}
           />
           <ProjectEntry
-            name={"Discord Music Bot"}
-            image={<BotGraphic />}
-            descr={<BotDesc />}
-          />
-          <ProjectEntry
             name={"EpilepSafe"}
             image={<EpilepSafeGraphic />}
             descr={<EpilepSafeDesc />}
           />
           <ProjectEntry
-            name={"EyeRis"}
-            image={<EyeRisGraphic />}
-            descr={<EyeRisDesc />}
+            name={"Autonomous Human Tracking Fan"}
+            image={<FanGraphic />}
+            descr={<FanDesc />}
           />
         </div>
       </div>

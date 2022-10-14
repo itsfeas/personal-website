@@ -42,7 +42,7 @@
   padding: 10%;
 }
 
-.dollar-img, .bot-img, .fan-img, .ab-logo {
+.prj-img {
   /* margin: 3vw; */
   width: 100%;
   object-fit: contain;
@@ -52,8 +52,12 @@
   filter: invert(59%) sepia(16%) saturate(1495%) hue-rotate(190deg) brightness(90%) contrast(88%);
 }
 
-.dollar-img {
-  filter: invert(71%) sepia(23%) saturate(767%) hue-rotate(54deg) brightness(70%) contrast(85%);
+.fan-img, .epilepsafe-img {
+  filter: invert(59%) sepia(16%) saturate(1495%) hue-rotate(150deg) brightness(100%) contrast(88%);
+}
+
+.airblip-img, .ab-logo {
+  filter: invert(59%) sepia(16%) saturate(1495%) hue-rotate(170deg) brightness(100%) contrast(88%);
 }
 
 .desc {
@@ -105,7 +109,7 @@
 .project-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 80vh 80vh;
+  grid-template-rows: 85vh 85vh;
   column-gap: 3vw;
   row-gap: 3vh;
 }
@@ -114,7 +118,7 @@
   .project-grid {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 80vh 80vh 80vh;
+    grid-template-rows: 85vh 85vh 85vh;
   }
 
   /* .heading {
@@ -126,7 +130,7 @@
   .project-grid {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 80vh;
+    grid-template-rows: 85vh;
   }
 }
 
@@ -134,7 +138,7 @@
 /15161674/responsive-design-rearrange-element-positions-with-css */
 @media screen and (max-width: 768px)
 {
-  .dollar-img, .bot-img {
+  .bot-img {
     transform: scale(1);
   }
   
