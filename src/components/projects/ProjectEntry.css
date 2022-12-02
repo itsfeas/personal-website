@@ -1,7 +1,7 @@
 .prj-entry {
   padding: 0;
   height: auto;
-  display: contents;
+  display: flex;
 }
 
 .prj-content {
@@ -16,6 +16,10 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  overflow: hidden;
+  
+  display: flex;
+  flex-direction: column;
 }
 
 .prj-link-btn {
@@ -29,7 +33,7 @@
 .prj-text {
   text-align: center;
   margin-top: 0;
-  height: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -38,7 +42,8 @@
   /* height: auto; */
   display: flex;
   justify-content: center;
-  height: 35%;
+  /* height: 35%; */
+  min-height: 35vh;
   padding: 10%;
 }
 
@@ -109,16 +114,18 @@
 .project-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 85vh 85vh;
+  grid-template-rows: auto auto;
+  grid-auto-rows: 1fr;
   column-gap: 3vw;
   row-gap: 3vh;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-aspect-ratio: 3/2) {
   .project-grid {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 85vh 85vh 85vh;
+    grid-template-rows: auto auto auto;
+    grid-auto-rows: auto;
   }
 
   /* .heading {
@@ -126,17 +133,21 @@
   } */
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-aspect-ratio: 6/5) {
+  .img-container {
+    height: auto;
+  }
   .project-grid {
     display: grid;
+    grid-auto-rows: auto;
     grid-template-columns: auto;
-    grid-template-rows: 85vh;
+    grid-template-rows: auto;
   }
 }
 
 /* help obtained from https://stackoverflow.com/questions
 /15161674/responsive-design-rearrange-element-positions-with-css */
-@media screen and (max-width: 768px)
+@media screen and (max-aspect-ratio: 6/5)
 {
   .bot-img {
     transform: scale(1);
@@ -148,11 +159,11 @@
 
    .prj-content
    {
-    margin-top: 10vh;
+    /* margin-top: 5vh; */
     display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: column-reverse;
-    flex-direction: column-reverse; 
+    /* -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse; */
     /* height: 60vh; */
    }
   .dollar-img, .bot-img, .fan-img, .ab-logo {
@@ -161,7 +172,7 @@
 }
 
 
-@media screen and (max-width: 550px)
+@media screen and (max-aspect-ratio: 6/5)
 {
   .fan-img, .ab-logo{
     height: 40vw;
