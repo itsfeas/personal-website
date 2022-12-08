@@ -21,7 +21,7 @@ function LandingBlock({ height, id }) {
             <div className="landing-content" id={"project-block" + id}>
                 <div className="landing-text" id="landing-text-1">
                     <h1 className='main-heading gradient-text'>Hi, I'm Fiaz!</h1>
-                    <h2 className='sub-heading colored-text'>3rd Year Software Engineering Student @UAlberta</h2>
+                    <h2 className='sub-heading colored-text'>4th Year Software Engineering Student @UAlberta</h2>
                     {/* <h3 className='sub-heading'>Interested in Front and Back-End Development</h3> */}
                         <p className='main-desc'>
                         Check out my resume <a className='desc-link' target = "_blank" href={Resume}>here</a>
